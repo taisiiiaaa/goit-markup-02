@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #2e2f42;
+  letter-spacing: 2%;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header .logo-web {
+  color: #4d5ae5;
+}
+
+header .page-logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  line-height: 1.166;
+}
+
+header nav.page-nav {
+  font-weight: 500;
+}
+
+header nav.page-nav a:hover,
+header nav.page-nav a:focus {
+    color: #404BBF;
+}
+
+header address.email-phone a {
+  color: #434455;
+  font-style: normal;
+  letter-spacing: 4%;
+}
+
+header address.email-phone a:hover,
+header address.email-phone a:focus {
+  color: #404BBF;
+}
+
+.hero-sec {
+    background-color: #2e2f42;
+}
+
+.hero-sec h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.hero-sec .order {
+    cursor: pointer;
+    background-color: #4d5ae5;
+    color: #fff;
+    border: none;
+    letter-spacing: 4%;
+}
+
+.hero-sec .order:hover,
+.hero-sec .order:focus {
+    background-color: #404BBF;
+}
