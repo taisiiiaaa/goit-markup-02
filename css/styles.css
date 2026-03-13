@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #2e2f42;
-  letter-spacing: 2%;
+  letter-spacing: 0.002em;
   line-height: 1.5;
   font-size: 16px;
   font-weight: 400;
@@ -26,23 +26,26 @@ ul {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 3%;
+  letter-spacing: 0.003em;
   line-height: 1.166;
 }
 
-header nav.page-nav {
+header nav.page-nav a {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.002em;
 }
 
-header nav.page-nav a:hover,
-header nav.page-nav a:focus {
+.page-nav a:hover,
+.page-nav a:focus {
   color: #404bbf;
 }
 
-header address.email-phone a {
+header address.email-phone {
   color: #434455;
   font-style: normal;
-  letter-spacing: 4%;
+  letter-spacing: 0.004em;
 }
 
 header address.email-phone a:hover,
@@ -56,9 +59,10 @@ header address.email-phone a:focus {
 
 .hero-sec h1 {
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  /* letter-spacing: .002em; */
   text-align: center;
 }
 
@@ -67,7 +71,7 @@ header address.email-phone a:focus {
   background-color: #4d5ae5;
   color: #fff;
   border: none;
-  letter-spacing: 4%;
+  letter-spacing: 0.004em;
 }
 
 .hero-sec .order:hover,
@@ -75,10 +79,16 @@ header address.email-phone a:focus {
   background-color: #404bbf;
 }
 
-.features ul h3,
-.portfolio ul h3 {
+.features h3,
+.portfolio h3 {
   font-size: 20px;
   font-weight: 500;
+}
+
+.features p,
+.team p,
+.portfolio p {
+  color: #434455;
 }
 
 .team {
@@ -112,5 +122,5 @@ footer {
 
 footer .page-logo,
 footer p {
-  color: #fff;
+  color: #f4f4fd;
 }
