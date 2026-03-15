@@ -17,7 +17,7 @@ ul {
   list-style-type: none;
 }
 
-header .logo-studio {
+.logo-studio {
   color: #2e2f42;
 }
 
@@ -31,7 +31,7 @@ header .logo-studio {
   line-height: 1.167;
 }
 
-header nav.page-nav a {
+.page-nav a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -43,17 +43,16 @@ header nav.page-nav a {
   color: #404bbf;
 }
 
-header address.email-phone {
+.email-phone {
   font-style: normal;
-  letter-spacing: 0.04em;
 }
 
-header address.email-phone a {
+.email-phone a {
   color: #434455;
 }
 
-address.email-phone a:hover,
-address.email-phone a:focus {
+.email-phone a:hover,
+.email-phone a:focus {
   color: #404bbf;
 }
 
@@ -61,7 +60,7 @@ address.email-phone a:focus {
   background-color: #2e2f42;
 }
 
-.hero-sec h1 {
+h1 {
   color: #fff;
   font-weight: 700;
   font-size: 56px;
@@ -70,7 +69,7 @@ address.email-phone a:focus {
   text-align: center;
 }
 
-.hero-sec .order {
+.order {
   cursor: pointer;
   background-color: #4d5ae5;
   color: #fff;
@@ -81,39 +80,35 @@ address.email-phone a:focus {
   letter-spacing: 0.04em;
 }
 
-.hero-sec .order:hover,
-.hero-sec .order:focus {
+.order:hover,
+.order:focus {
   background-color: #404bbf;
 }
 
-.features h3,
-.team h3,
-.portfolio h3 {
+h3 {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
 
-.features p,
-.team p,
-.portfolio p,
-footer p {
+p {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 
 .team {
   background-color: #f4f4fd;
 }
 
-.team h2,
-.portfolio h2 {
+h2 {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .team li {
@@ -129,10 +124,7 @@ footer {
   background-color: #2e2f42;
 }
 
-footer .logo-studio {
-  color: #fff;
-}
-
+footer .logo-studio,
 footer p {
   color: #f4f4fd;
 }
