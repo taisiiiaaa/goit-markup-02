@@ -49,6 +49,7 @@ ul {
 
 .email-phone a {
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .email-phone a:hover,
