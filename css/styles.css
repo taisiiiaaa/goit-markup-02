@@ -1,8 +1,8 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color: #2e2f42;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
   line-height: 1.5;
   font-size: 16px;
   font-weight: 400;
@@ -17,24 +17,25 @@ ul {
   list-style-type: none;
 }
 
-.logo-web {
-  color: #4d5ae5;
+header .logo-studio {
+  color: #2e2f42;
 }
 
 .page-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 0.003em;
-  line-height: 1.166;
+  letter-spacing: 0.03em;
+  line-height: 1.167;
 }
 
 header nav.page-nav a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
 }
 
 .page-nav a:hover,
@@ -43,13 +44,16 @@ header nav.page-nav a {
 }
 
 header address.email-phone {
-  color: #434455;
   font-style: normal;
-  letter-spacing: 0.004em;
+  letter-spacing: 0.04em;
 }
 
-header address.email-phone a:hover,
-header address.email-phone a:focus {
+header address.email-phone a {
+  color: #434455;
+}
+
+address.email-phone a:hover,
+address.email-phone a:focus {
   color: #404bbf;
 }
 
@@ -62,7 +66,7 @@ header address.email-phone a:focus {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* letter-spacing: .002em; */
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -71,7 +75,10 @@ header address.email-phone a:focus {
   background-color: #4d5ae5;
   color: #fff;
   border: none;
-  letter-spacing: 0.004em;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 
 .hero-sec .order:hover,
@@ -80,15 +87,22 @@ header address.email-phone a:focus {
 }
 
 .features h3,
+.team h3,
 .portfolio h3 {
   font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-weight: 500;
 }
 
 .features p,
 .team p,
-.portfolio p {
+.portfolio p,
+footer p {
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .team {
@@ -107,11 +121,6 @@ header address.email-phone a:focus {
   text-align: center;
 }
 
-.team li h3 {
-  font-size: 20px;
-  font-weight: 500;
-}
-
 .portfolio li {
   background-color: #fff;
 }
@@ -120,7 +129,10 @@ footer {
   background-color: #2e2f42;
 }
 
-footer .page-logo,
+footer .logo-studio {
+  color: #fff;
+}
+
 footer p {
   color: #f4f4fd;
 }
