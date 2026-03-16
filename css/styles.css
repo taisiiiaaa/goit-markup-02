@@ -31,15 +31,15 @@ ul {
   line-height: 1.167;
 }
 
-.page-nav a {
+.nav-option {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.page-nav a:hover,
-.page-nav a:focus {
+.nav-option:hover,
+.nav-option:focus {
   color: #404bbf;
 }
 
@@ -47,13 +47,13 @@ ul {
   font-style: normal;
 }
 
-.email-phone a {
+.contacts {
   color: #434455;
   letter-spacing: 0.02em;
 }
 
-.email-phone a:hover,
-.email-phone a:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 
@@ -61,7 +61,7 @@ ul {
   background-color: #2e2f42;
 }
 
-h1 {
+.main-heading {
   color: #fff;
   font-weight: 700;
   font-size: 56px;
@@ -70,7 +70,7 @@ h1 {
   text-align: center;
 }
 
-.order {
+.order-btn {
   cursor: pointer;
   background-color: #4d5ae5;
   color: #fff;
@@ -81,19 +81,19 @@ h1 {
   letter-spacing: 0.04em;
 }
 
-.order:hover,
-.order:focus {
+.order-btn:hover,
+.order-btn:focus {
   background-color: #404bbf;
 }
 
-h3 {
+.sub-subheading {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
 
-p {
+.body-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -104,7 +104,7 @@ p {
   background-color: #f4f4fd;
 }
 
-h2 {
+.subheading {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -125,7 +125,10 @@ footer {
   background-color: #2e2f42;
 }
 
-footer .logo-studio,
-footer p {
+footer .logo-studio {
+  color: #f4f4fd;
+}
+
+.slogan {
   color: #f4f4fd;
 }
