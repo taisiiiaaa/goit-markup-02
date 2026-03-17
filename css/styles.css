@@ -43,11 +43,8 @@ ul {
   color: #404bbf;
 }
 
-.email-phone {
-  font-style: normal;
-}
-
 .contacts {
+  font-style: normal;
   color: #434455;
   letter-spacing: 0.02em;
 }
@@ -112,20 +109,20 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.team li {
+.member {
   background-color: #fff;
   text-align: center;
 }
 
-.portfolio li {
+.case {
   background-color: #fff;
 }
 
-footer {
+.page-footer {
   background-color: #2e2f42;
 }
 
-footer .logo-studio {
+.page-footer .logo-studio {
   color: #f4f4fd;
 }
 
